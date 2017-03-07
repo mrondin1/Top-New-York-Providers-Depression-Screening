@@ -17,14 +17,10 @@ screeningData = pd.read_csv(dir_path+'/Physician_Compare_2014_Individual_EP_Publ
 #select all providers who have depression screening data
 screeningDataDepression = screeningData.loc[screeningData['Screening for depression and developing a follow-up plan.']>0]
 
-screeningDataNYCheck = screeningDataDepression.isin(providerDataNY)
-
-#screeningDataNY = screeningDataDepression[screeningDataDepression['NPI'].isin(providerDataNY['NPI'].index)]
-
-#select all providers based in NY who have depression screening data - 109 total
+#select all providers based in NY who have depression screening data 
 screeningDataNY = screeningDataDepression[screeningDataDepression['NPI'].isin(providerDataNY['NPI'])]
 
-# join invididual practinioner data to group practice Data on 'NPI' 
+#join invididual practinioner data to group practice data on 'NPI' 
 screenProviderJoin = screeningDataNY.join(providerDataNY.set_index(['NPI','PAC ID','Last Name','First Name']),on=['NPI','PAC ID','Last Name','First Name'],how='left')
 
 #drop duplicates of same practitioner, same practice (but keep duplicates of same practitioner, different practice)
