@@ -1,15 +1,18 @@
 import pandas as pd
+import os
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
 #read in data on all practitioners and their affiliated practices 
 #available for download here: https://data.medicare.gov/Physician-Compare/Physician-Compare-National-Downloadable-File/mj5m-pzi6
-providerData = pd.read_csv('/Users/mikerondinaro/Documents/Work/Spring Health/Trial Project 1/Physician_Compare_National_Downloadable_File.csv')
+providerData = pd.read_csv(dir_path+'/Physician_Compare_National_Downloadable_File.csv')
 
 #select all providers based in NY
 providerDataNY = providerData.loc[providerData['State']=='NY']
 
 #read in data on physicians and what they screen for 
 #available for download here: https://data.medicare.gov/Physician-Compare/Physician-Compare-2014-Individual-EP-Public-Report/wbjt-9zks
-screeningData = pd.read_csv('/Users/mikerondinaro/Documents/Work/Spring Health/Trial Project 1/Physician_Compare_2014_Individual_EP_Public_Reporting_-_Clinical_Quality_Of_Care.csv')
+screeningData = pd.read_csv(dir_path+'/Physician_Compare_2014_Individual_EP_Public_Reporting_-_Clinical_Quality_Of_Care.csv')
 
 #select all providers who have depression screening data
 screeningDataDepression = screeningData.loc[screeningData['Screening for depression and developing a follow-up plan.']>0]
