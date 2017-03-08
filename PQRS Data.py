@@ -10,7 +10,7 @@ providerData = pd.read_csv(dir_path+'/Physician_Compare_National_Downloadable_Fi
 #select all providers based in NY
 providerDataNY = providerData.loc[providerData['State']=='NY']
 
-#read in data on physicians and what they screen for 
+#read in data on practitioners and what they screen for 
 #available for download here: https://data.medicare.gov/Physician-Compare/Physician-Compare-2014-Individual-EP-Public-Report/wbjt-9zks
 screeningData = pd.read_csv(dir_path+'/Physician_Compare_2014_Individual_EP_Public_Reporting_-_Clinical_Quality_Of_Care.csv')
 
