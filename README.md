@@ -4,7 +4,8 @@ This code uses data collected for the Physician Quality Reporting System to iden
 The data can be collected at the following URLs:
   * Physician Compare National Downloadable File - https://data.medicare.gov/Physician-Compare/Physician-Compare-National-Downloadable-File/mj5m-pzi6
   * Physician Compare 2014 Individual EP Public Reporting - https://data.medicare.gov/Physician-Compare/Physician-Compare-2014-Individual-EP-Public-Report/wbjt-9zks
-  The data should be placed in the same directory as the python file to run.
+
+The data should be placed in the same directory as the python file to run.
   
   
 Group Practice PAC ID	| Organization legal name |	Screening for depression and developing a follow-up plan. |	Contact
