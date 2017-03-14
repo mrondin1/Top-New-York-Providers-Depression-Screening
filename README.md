@@ -10,7 +10,7 @@ The data should be placed in the same directory as the python file to run.
   
 Group Practice PAC ID	| Organization legal name |	Screening for depression and developing a follow-up plan. | Percent Reporting Depression Screening|	Contact | Contact Info
 --- | --- | --- | --- | --- |---
-1355395179	| FOX REHABILITATION PHYSICAL THERAPY SERVICES LLC	|	1045| 48% |	Robyn Kjar, DPT | info@foxrehab.org, 877-407-3422 
+1355395179	| FOX REHABILITATION PHYSICAL THERAPY SERVICES LLC	|	1045| 46% |	Robyn Kjar, DPT | info@foxrehab.org, 877-407-3422 
 9537213079|	GENERAL PHYSICIAN, PC	|	757| 43% |	Thomas McTernan, MD | 716-363-6960
 8820070105|	ON-SITE PSYCHOLOGICAL SERVICES PC	|	700| 100% |	Stephen Buckley, PhD | onsitepsy@cshore.com, 203-438-7565
 5193800779|	AMHERST MEDICAL ASSOCIATES, LLP	|	470|	100% |Steven Stone, MD | 716-834-4266
