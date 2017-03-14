@@ -8,18 +8,18 @@ The data can be collected at the following URLs:
 The data should be placed in the same directory as the python file to run.
   
   
-Group Practice PAC ID	| Organization legal name |	Screening for depression and developing a follow-up plan. |	Contact | Contact Info
---- | --- | --- | --- | ---
-1355395179	| FOX REHABILITATION PHYSICAL THERAPY SERVICES LLC	|	1045|	Robyn Kjar, DPT | info@foxrehab.org, 877-407-3422 
-9537213079|	GENERAL PHYSICIAN, PC	|	757|	Thomas McTernan, MD | 716-363-6960
-8820070105|	ON-SITE PSYCHOLOGICAL SERVICES PC	|	700|	Stephen Buckley, PhD | onsitepsy@cshore.com, 203-438-7565
-5193800779|	AMHERST MEDICAL ASSOCIATES, LLP	|	470|	Steven Stone, MD | 716-834-4266
-7416860572|	PSYCHOLOGICAL HEALTHCARE, PLLC	|	400|	Joel Richman, PhD | hr@phcny.com, 315-422-0300 
-3375434970|	STONY BROOK ANAESTHESIOLOGY UNIVERSITY FACULTY...	|	344|	Tong Joo (TJ) Gan, MD | Tong.Gan@stonybrookmedicine.edu, 631-444-2975
-2365494861|	DAWN FRIEDLAND-PEREZ LCSW,PC|	300|	Dawn Friedland-Perez, LCSW, PC | 631-331-2690
-9931164845|	EDWARD J. JACOBS, MD., SEAN Y. LEE, M.D. AND C...|	252|	Sean Y. Lee, MD | 518-465-3318 
-5597908202|	CNY SPINE AND PAIN MEDICINE LLC|	243|	Martin Schaeffer, MD | 315-451-5400
-1557416997|	AHAVA MEDICAL AND REHABILITATION CENTER, LLC|	200|	June Mossop, PhD | 718-951-8800
+Group Practice PAC ID	| Organization legal name |	Screening for depression and developing a follow-up plan. | Percent Reporting Depression Screening|	Contact | Contact Info
+--- | --- | --- | --- | --- |---
+1355395179	| FOX REHABILITATION PHYSICAL THERAPY SERVICES LLC	|	1045| 48% |	Robyn Kjar, DPT | info@foxrehab.org, 877-407-3422 
+9537213079|	GENERAL PHYSICIAN, PC	|	757| 43% |	Thomas McTernan, MD | 716-363-6960
+8820070105|	ON-SITE PSYCHOLOGICAL SERVICES PC	|	700| 100% |	Stephen Buckley, PhD | onsitepsy@cshore.com, 203-438-7565
+5193800779|	AMHERST MEDICAL ASSOCIATES, LLP	|	470|	100% |Steven Stone, MD | 716-834-4266
+7416860572|	PSYCHOLOGICAL HEALTHCARE, PLLC	|	400|	100%|Joel Richman, PhD | hr@phcny.com, 315-422-0300 
+3375434970|	STONY BROOK ANAESTHESIOLOGY UNIVERSITY FACULTY...	|	344|100%|	Tong Joo (TJ) Gan, MD | Tong.Gan@stonybrookmedicine.edu, 631-444-2975
+2365494861|	DAWN FRIEDLAND-PEREZ LCSW,PC|	300|	100%|Dawn Friedland-Perez, LCSW, PC | 631-331-2690
+9931164845|	EDWARD J. JACOBS, MD., SEAN Y. LEE, M.D. AND C...|	252|100%|	Sean Y. Lee, MD | 518-465-3318 
+5597908202|	CNY SPINE AND PAIN MEDICINE LLC|	243| 75%|	Martin Schaeffer, MD | 315-451-5400
+1557416997|	AHAVA MEDICAL AND REHABILITATION CENTER, LLC|	200|100%|	June Mossop, PhD | 718-951-8800
 
 The contact column in the results above is not an output of the code, and was added manually.
 
