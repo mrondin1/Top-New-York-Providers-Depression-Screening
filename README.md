@@ -29,16 +29,4 @@ I first looked at a different dataset that included data for depression screenin
 
 The code can easily be updated to alter the target state or amount of output. All of the data for specific practitioners can be identified using "screenProviderJoin2.loc[screenProviderJoin2['Group Practice PAC ID'] == 1355395179]" and changing the PAC ID to select the provider of interest.
 
-# Follow up
-
-Email Draft:
-
-Hi ______,
-
-My name is Mike Rondinaro and I am reaching out on behalf of Spring Care, Inc. (www.spring.care). We are a behavioral healthcare start-up that uses machine learning technology to assist clinicians in making depression treatment decisions with a ten minute questionnaire. Founded out of Yale University, our work has been featured in The Lancet and Crain's, among other publications. We identified your practice as a top performer in depression screening using data from the Medicare Physician Quality Reporting System. Please let me know if you are free for a phone call to discuss your depression screening procedures and your needs, if any, for improving this process. 
-
-Sincerely,
-
-Mike
-
 
